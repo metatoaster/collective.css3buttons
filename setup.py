@@ -6,7 +6,7 @@ version = '0.0'
 setup(name='collective.css3buttons',
       version=version,
       description="Simple framework for creating button links",
-      long_description=open("README.txt").read() + "\n" +
+      long_description=open("README.md").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from http://www.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
