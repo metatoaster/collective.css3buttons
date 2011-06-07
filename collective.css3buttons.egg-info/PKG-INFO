@@ -1,0 +1,25 @@
+Metadata-Version: 1.0
+Name: collective.css3buttons
+Version: 0.0dev
+Summary: Simple framework for creating button links
+Home-page: UNKNOWN
+Author: Tommy Yu
+Author-email: y@metatoaster.com
+License: Unlicense
+Description: Introduction
+        ============
+        
+        
+        
+        Changelog
+        =========
+        
+        0.0 - Unreleased
+        ----------------
+        
+        * Initial release
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
