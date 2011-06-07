@@ -1,0 +1,3 @@
+[submodule "collective/css3buttons/css3buttons"]
+	path = collective/css3buttons/css3buttons
+	url = https://github.com/michenriksen/css3buttons.git
