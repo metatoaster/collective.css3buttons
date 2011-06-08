@@ -7,16 +7,16 @@ from collective.css3buttons.tests import base
 
 class ResourceTestCase(base.TestCase):
 
-    def test_0010_images(self):
+    def test_0010_resources(self):
+        needed_resources = [
+            'images/css3buttons_backgrounds.png',
+            'images/css3buttons_icons.png',
+            'stylesheets/css3buttons.css',
+        ]
         request = TestRequest()
-        res = getAdapter(request, name='collective.css3buttons.images')
-        self.assertNotEqual(res.get('css3buttons_backgrounds.png', None), None)
-        self.assertNotEqual(res.get('css3buttons_icons.png', None), None)
-
-    def test_0020_stylesheets(self):
-        request = TestRequest()
-        res = getAdapter(request, name='collective.css3buttons.stylesheets')
-        self.assertNotEqual(res.get('css3buttons.css', None), None)
+        res = getAdapter(request, name='collective.css3buttons.resources')
+        for i in needed_resources:
+            self.assertNotEqual(res.get(i, None), None, '`%s` is missing.' % i)
 
 
 def test_suite():

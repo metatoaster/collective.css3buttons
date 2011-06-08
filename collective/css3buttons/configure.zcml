@@ -4,13 +4,8 @@
     i18n_domain="collective.css3buttons">
 
   <browser:resourceDirectory
-      name="collective.css3buttons.images"
-      directory="css3buttons/images"
-      />
-
-  <browser:resourceDirectory
-      name="collective.css3buttons.stylesheets"
-      directory="css3buttons/stylesheets"
+      name="collective.css3buttons.resources"
+      directory="css3buttons"
       />
 
 </configure>
